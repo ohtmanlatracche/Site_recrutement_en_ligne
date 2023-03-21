@@ -1,0 +1,125 @@
+.container2 {
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background: rgb(255,162,0);
+    background: linear-gradient(0deg, rgba(255,162,0,1) 20%, rgba(45,144,253,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  input[type="email"],
+input[type="password"],input[type="text"]{
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  margin-top: 5px;
+ 
+  
+}
+
+
+
+
+.button {
+  background-color: #03a9f4;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 15px;
+  padding: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0390db;
+}
+
+
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-group {
+    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label { 
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+  } 
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #1abc9c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  input[type="submit"] {
+    width: 40%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  a {
+    color: blue;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+  }
+   
+  body {
+    background-image: url(auth.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-size: cover;
+    
+    
+  }

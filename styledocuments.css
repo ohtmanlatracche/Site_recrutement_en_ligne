@@ -1,0 +1,46 @@
+.fichier {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 2px #ccc;
+  }
+  
+  .fichier h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .fichier form {
+    margin-bottom: 20px;
+  }
+  
+  .fichier input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .fichier input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fichier input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .fichier a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .fichier a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,74 @@
+    body {
+      padding: 0px;
+      margin: 0px;
+      background-image: url(interface.jpg);
+      background-size: cover;
+    }
+
+
+
+
+    .icones {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      margin-top: 25vh;
+      margin-bottom: 20vh;
+    }
+     
+
+     
+    .box:hover {
+      transform: scale(1.05);
+      transition: all 0.3s ease;
+
+    }
+
+
+
+
+
+    .infos {
+
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+      align-items: stretch;
+    }
+
+    .infos:hover {
+      box-shadow: 10px 13px 11px -10px inset rgb(184, 97, 97);
+    }
+
+    .mod:hover {
+      font-size: large;
+      border-radius: 15px;
+      box-shadow: 2px 2px 15px 10px inset rgb(114, 241, 103);
+    }
+
+    .fin {
+      color: azure;
+
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .f:hover {
+
+      box-shadow: 12px 2px 15px 10px inset darkgray;
+    }
+
+    .font:hover {
+      color: black;
+      background-color: rgb(208, 46, 46);
+      border-radius: 15px;
+      height: 300px;
+    }
+
+
+   
+
+
+

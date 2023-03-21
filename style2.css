@@ -1,0 +1,100 @@
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  margin-top: 25px;
+    height: 560px;
+  background: rgb(255,162,0);
+  background: linear-gradient(0deg, rgba(255,162,0,1) 20%, rgba(45,144,253,1) 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.button {
+  background-color: #03a9f4;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 15px;
+  padding: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0390db;
+}
+
+
+
+
+
+
+h1 {
+  margin-right: 10px;
+  margin-top: 40px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: rgb(64, 64, 163);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="email"],
+input[type="password"],input[type="text"]{
+  width: 70%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  margin-top: 5px;
+  
+}
+
+input[type="submit"] {
+  width: 40%;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+p.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
+
+a {
+  color: blue;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+body {
+  background-image: url(auth.jpg);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  background-size: cover;
+  height: 100vh;
+  
+}
+label {
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
